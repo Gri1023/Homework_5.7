@@ -18,7 +18,7 @@ public class Main {
         int count = 1;
             for (int d = 2; d < 1000; d++) {
                     if (prime(d) == true && count<=100) {
-                        System.out.print(d + " " + "count=" + count + "  ");
+                        System.out.print(d + " " + "count=" + count + " | ");
                         count = count + 1;
                     }
                 }
